@@ -1,5 +1,11 @@
 
 
+# Development 
+
+- Use `assert` and `precodition` while development.
+
+# Production
+
 ## To be Removed 
 
 fatalError() causes the application to generate a crash log and terminate. 
