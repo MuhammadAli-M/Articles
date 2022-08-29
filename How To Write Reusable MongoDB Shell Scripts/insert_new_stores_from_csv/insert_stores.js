@@ -19,7 +19,7 @@ conn = db.getMongo()
 db = conn.getDB("main")
 
 
-const response = db.stores.insertMany(to_be_inserted_stores);
+const response = db.stores.insertMany(storesDocuments);
 
 // print the result
 console.log(response)
