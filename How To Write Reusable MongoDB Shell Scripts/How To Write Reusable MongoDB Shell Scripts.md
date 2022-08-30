@@ -1,4 +1,4 @@
-### How To Write Reusable MongoDB Shell Scripts 
+### How To Write A Reusable MongoDB Shell Scripts 
 
 
 ### Overview 
@@ -16,7 +16,7 @@ Let’s go practical, we will write an example script to insert some **_store_**
 Mongo [explains](https://www.mongodb.com/docs/manual/tutorial/write-scripts-for-the-mongo-shell/#opening-new-connections) some ways to connect to your database. To me, I use this:
 
 ```
-mongosh <connection URI>
+mongosh <Connection_URI>
 ```
 
 ### Reading Data For The Script
@@ -102,4 +102,6 @@ console.log(response)
 ```
 fs.writeFileSync('output.json', JSON.stringify(response));
 ```
+
+[Here are the full scripts](https://github.com/MuhammadAli-M/Articles/tree/master/How%20To%20Write%20Reusable%20MongoDB%20Shell%20Scripts)
 
